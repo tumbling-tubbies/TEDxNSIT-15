@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> 
+<![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en"> 
+<![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <title>TEDxNSIT Conference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+
+    <meta name="author" content="tedxnsit">
+    <meta charset="UTF-8">
+    <link href='http://fonts.googleapis.com/css?family=Dosis:300,400,500,600,700,800' rel='stylesheet' type='text/css'>
+    
+    <!-- CSS Bootstrap & Custom -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="css/templatemo_misc.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap-lightbox.min.css">
+    <link href="css/templatemo_style.css" rel="stylesheet" media="screen">
+    
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/flipclock.css">
+
+
+
+    <!-- JavaScripts -->
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+ 
+    <!-- bootbox code -->
+    <script src="js/bootbox.min.js"></script>
+    <script src="js/flipclock.js"></script>
+    <style>
+        input[type="text"]{
+            width: 50%;
+        }
+        input[type="email"]{
+            width: 50%;
+        }
+        input[type="number"]{
+            width: 50%;
+        }
+        textarea {
+            width: 100%;
+            height: 100px;
+        }
+    </style>
+
+</head>
+<body ng-app="">
+    
+    <div class="bg-image"></div>
+    <div class="overlay-bg"></div>
+
+    
+  <!--   <div class="container language-select visible-md visible-lg">
+        <div class="row">
+            <div class="col-md-12">
+                <select name="cat2" id="cat2" class="postform">
+                    <option value="0">Language Selection</option>
+                    <option class="level-0" value="1">English</option>
+                    <option class="level-0" value="2">Myanmar</option>
+                </select> -->
+           <!-- </div> --><!-- /.col-md-12 -->
+        <!-- </div> --> <!-- /.row -->
+    <!-- </div> --><!-- /.language-select -->
+
+    <!-- This one in here is responsive menu for tablet and mobiles -->
+    <div class="responsive-navigation visible-sm visible-xs">
+        <a href="#" class="menu-toggle-btn">
+            <i class="fa fa-bars fa-2x"></i>
+        </a>
+        <div class="responsive_menu">
+            <ul class="main_menu">
+                <li><a class="show-1 homebutton" href="#"><i class="fa fa-home"></i>Homepage</a></li>
+                <li><a class="show-2" href="#"><i class="fa fa-user"></i>About Us</a></li>
+                <li><a class="show-3" href="#"><i class="fa fa-users"></i>Speaker List</a></li>
+                <li><a class="show-4" href="#"><i class="fa fa-video-camera"></i>Video Feed</a></li>
+                <li><a class="show-5" href="#"><i class="fa fa-globe"></i>Register</a></li>
+            </ul> <!-- /.main_menu -->
+        </div> <!-- /.responsive_menu -->
+    </div> <!-- /responsive_navigation -->
+
+    <div class="main-content">
+        <div class="container">
+            <div class="row">
+
+                <!-- Static Menu -->
+                <div class="col-md-2 visible-md visible-lg">
+                    <div class="main_menu">
+                        <ul class="menu">
+                            <li><a class="show-1 homebutton" href="#" data-toggle="tooltip" data-original-title="Homepage"><i class="fa fa-home"></i></a></li>
+                            <li><a class="show-2" href="#" data-toggle="tooltip" data-original-title="About Us"><i class="fa fa-user"></i></a></li>
+                            <li><a class="show-3" href="#" data-toggle="tooltip" data-original-title="Speakers List"><i class="fa fa-users"></i></a></li>
+                            <li><a class="show-4" href="#" data-toggle="tooltip" data-original-title="Video Feed"><i class="fa fa-video-camera"></i></a></li>
+                            <li><a class="show-5" href="#" data-toggle="tooltip" data-original-title="Register"><i class="fa fa-globe"></i></a></li>
+
+                        </ul>
+                    </div> <!-- /.main-menu -->
+                </div> <!-- /.col-md-2 -->
+
+                <!-- Begin Content -->
+                <div class="col-md-10">
+
+                    <div class="row" style="top:10px;">
+                        <div class="col-md-12">
+                            <div class="templatemo_logo">
+                                    <a class="show-5" href="http://tedxnsit.in/"><img style="float: left" height="142" width="500" src="images/tedxnsit2015.jpg" alt="TEDxNSIT"></a>
+                            </div> <!-- /.logo -->
+                        </div> <!-- /.col-md-12 -->
+                    </div> <!-- /.row -->
+
+                    <div class="clock" style="margin:2em; margin-left: 0px;"></div>
+                    <div class="message"></div>
+
+
+                    <div id="menu-container">
+                        
+                        <div id="menu-1" class="homepage">
+                            <div class="inside" style="background-color: rgba(0, 0, 0, 0.7);">
+                                <div class="content-inner">
+                                    <div class="row">
+                                            <h1 style="padding:8px; line-height:50px;background-color: rgb(169, 41, 27);">TEDxNSIT returns on Sunday, April 12, 2015 </br> Theme: Socially Inclusive Change</h1></br>
+                                            <h3 class="widget-title">What is TED<span style="font-size:12px;">x</span> ?</h3>
+                                            <div class="aligning" style="text-align: left; font-size: 15px;">
+                                                <p>In the spirit of ideas worth spreading, TED has created a program called TEDx. TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. Our event is called TEDxNSIT, where x = independently organized TED event. At our TEDxNSIT event, TEDTalks video and live speakers will combine to spark deep discussion and connection in a small group. The TED Conference provides general guidance for the TEDx program, but individual TEDx events, including ours, are self-organized.</p>
+                                                <p>This independent TEDx event is operated under license from TED</p>
+                                            </div>
+                                            <br>
+
+                                    </div> <!-- /.col-md-7 -->
+                                    <br>                                    
+                                    <h3><font color="red">Registrations are now officialy closed!</font></h3>
+                                    <br>
+                                   <!-- <div class = "row">
+                                            <div class="main_menu">
+                                                    <a style="font-size: 20px;"class="show-5" href="#"><button class="btn btn-primary"><p style="font-size: 20px; color:white">ATTEND</p></button></a>
+                                            </div> /.main-menu -->
+                                    
+                                    <br>
+                                    <h4>For Press and Media Houses:</h4>
+                                    <div class = "row">
+                                            <div class="main_menu">
+                                                    <a style="font-size: 20px;" href="http://goo.gl/forms/1mbRdCLqtg" target="_blank"><button class="btn btn-primary"><p style="font-size: 20px; color:white">REGISTER HERE</p></button></a>
+                                            </div> <!-- /.main-menu -->
+                                    </div>
+                                   <!-- <br>
+                                    <br>
+                                    <div align="centre" class="col-md-7">
+                                        <div class="service">
+                                            
+                                            <div align="centre" class="body"><iframe style="display:block; width:100%;" src="images/vid.mp4" frameborder="1" allowfullscreen></iframe></div>
+                                        </div>
+                                    </div>-->
+                                </div>
+                                <br>
+                                <h1 class="widget-title">A small glance at what's in store for you!<h1>
+                                <div class="col-md-12">
+                                    <iframe height="384px;" width="100%"src="https://www.youtube.com/embed/qFhcxcbvaZI" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                                <div class="row">
+                                    <br>
+                                    <br>
+
+                        <h1 class="widget-title">Past Speakers</h1>
+                                    <div class="col-md-4 col-sm-6 col-xs-6">
+                                        <div class="portfolio-item">
+                                            <div class="overlay">
+                                                <h4>Ajai Kumar
+                                                </h4>
+                                                <a href="images/gallery/descp/ajai kumar.jpg" data-rel="lightbox">
+                                                    <i class="fa fa-expand"></i>
+                                                </a>
+                                            </div>
+                                            <img src="images/gallery/Ajai_Kumar.jpg" alt="Ajai Kumar">
+                                        </div> <!-- /.portfolio-item -->
+                                    </div> <!-- /.col-md-4 -->
+                                    <div class="col-md-4 col-sm-6 col-xs-6">
+                                        <div class="portfolio-item">
+                                            <div class="overlay">
+                                                <h4>Monideepa Roy</h4>
+                                                <a href="images/gallery/descp/monideepa roy.jpg" data-rel="lightbox">
+                                                    <i class="fa fa-expand"></i>
+                                                </a>
+                                            </div>
+                                            <img src="images/gallery/Monideepa_Roy.jpg" alt="Monideepa Roy">
+                                        </div> <!-- /.portfolio-item -->
+                                    </div> <!-- /.col-md-4 -->
+                                    <div class="col-md-4 col-sm-6 col-xs-6">
+                                        <div class="portfolio-item">
+                                            <div class="overlay">
+                                                <h4>Andrew Humphries</h4>
+                                                <a href="images/gallery/descp/Andrew Humphries.jpg" data-rel="lightbox">
+                                                    <i class="fa fa-expand"></i>
+                                                </a>
+                                            </div>
+                                            <img src="images/gallery/Andrew Humphries.jpg" alt="Andrew Humphries">
+                                        </div> <!-- /.portfolio-item -->
+                                    </div> <!-- /.col-md-4 -->
+                                    <div class="col-md-4 col-sm-6 col-xs-6">
+                                        <div class="portfolio-item">
+                                            <div class="overlay">
+                                                <h4>Kriti Monga</h4>
+                                                <a href="images/gallery/descp/Kriti Monga.jpg" data-rel="lightbox">
+                                                    <i class="fa fa-expand"></i>
+                                                </a>
+                                            </div>
+                                            <img src="images/gallery/Kriti Monga.jpg" alt="Kriti Monga">
+                                        </div> <!-- /.portfolio-item -->
+                                    </div> <!-- /.col-md-4 -->
+                                    <div class="col-md-4 col-sm-6 col-xs-6">
+                                        <div class="portfolio-item">
+
+                                            <div class="overlay">
+                                                <h4>Niraj Sheth</h4>
+
+                                                <a href="images/gallery/descp/Niraj sheth.jpg" data-rel="lightbox">
+                                                   <i class="fa fa-expand"></i>
+                                                </a>
+                                            </div>
+                                           
+                                            <img src="images/gallery/Niraj Seth.jpg" alt="Niraj Seth">
+                                        
+                                        </div> <!-- /.portfolio-item -->
+                                    </div> <!-- /.col-md-4 -->
+                                    <div class="col-md-4 col-sm-6 col-xs-6">
+                                        <div class="portfolio-item">
+                                            <div class="overlay">
+                                                <h4>Keerti Kataria</h4>
+                                                <a href="images/gallery/descp/Keerti kataria.jpg" data-rel="lightbox">
+                                                    <i class="fa fa-expand"></i>
+                                                </a>
+                                            </div>
+                                            <img src="images/gallery/Keerti Kataria.jpg" alt="Keerti Kataria"> 
+                                        </div> <!-- /.portfolio-item -->
+                                    </div> <!-- /.col-md-4 -->
+                                    <div class="col-md-4 col-sm-6 col-xs-6">
+                                        <div class="portfolio-item">
+                                            <div class="overlay">
+                                                <h4>Akshar Pathak</h4>
+                                                <a href="images/gallery/descp/Akshar pathak.jpg" data-rel="lightbox">
+                                                    <i class="fa fa-expand"></i>
+                                                </a>
+                                            </div>
+                                            <img src="images/gallery/Akshar Pathak.jpg" alt="Akshar Pathak">
+                                        </div> <!-- /.portfolio-item -->
+                                    </div> <!-- /.col-md-4 -->
+                                </div> <!-- /.row -->
+                            </div>
+                        </div> <!-- /.homepage -->
+
+                        <div id="menu-2" class="content about-us">
+                            <div class="page-header">
+                                <h2 class="page-title">About</h2>
+                            </div> <!-- /.page-header -->
+                            <div class="content-inner">
+                                <div class="row">
+                                        <p><b><font size="5">About TEDxNSIT</font></b></p>
+                                        <p>Netaji Subhas Institute Of Technology brings together scholars, explorers and artists in an extraordinary event called TEDxNSIT. This immersive, daylong conference shares the talents of NSIT’s speakers and performers with audiences from around the world and creates the magic that is TEDxNSIT. Thought is a free bird, but chained within the realm of one's conscious self. It needs a shot, an effort, a spark that glows, engulfing the thought process, triggering it to action. It needs some necessary ingredients to pop out. One's thought can revolutionize the world, creating the aura transforming the era. We at TEDxNSIT reframe the vision to open up your thoughts and make it happen. We present you the best ways to realize your thoughts and make it successful, go beyond the horizon, breaking the chain to create a civilized world.</p>
+
+                                        <p>Read on to learn more about TEDx and how it's related to TED, a nonprofit organization.</p></br>
+
+                                        <p><b><font size="5">TEDx, x = independently organized event</font></p></b>
+                                        <p>In the spirit of ideas worth spreading, TEDx is a program of local, self-organized events that bring people together to share a TED-like experience.  At a TEDx event, TEDTalks video and live speakers combine to spark deep discussion and connection in a small group. These local, self-organized events are branded TEDx, where x = independently organized TED event. The TED Conference provides general guidance for the TEDx program, but individual TEDx events are self-organized. (Subject to certain rules and regulations.) </p></br>
+
+                                        <p><b><font size="5">What is TED?</font></b></p>
+                                        <p>TED is a nonprofit organization devoted to Ideas Worth Spreading. Started as a conference in California 26 years ago, TED has grown to support those world-changing ideas with many initiatives.</p>
+
+                                        <p>At a TED conference, the world's leading thinkers and doers are asked to give the talk of their lives in 18 minutes or less. TED speakers have included Roger Ebert, Sheryl Sandberg, Bill Gates, Elizabeth Gilbert, Benoit Mandelbrot, Philippe Starck, Ngozi Okonjo-Iweala, Brian Greene, Isabel Allende and former UK Prime Minister Gordon Brown. Three major TED events are held each year: The TED Conference takes place every spring in Vancouver, Canada, simultaneous with TEDActive, in Whistler, BC; and the TEDGlobal Conference takes place each summer in Edinburgh, Scotland.</p>
+                                        <p>For information about TED's upcoming conferences, visit www.ted.com/registration. Follow TED on Twitter at <a href="https://twitter.com/TEDtalks" style="text-decoration:none;" target="_blank"> twitter.com/TEDTalks </a>, or on Facebook at<a href="http://www.facebook.com/TED" style="text-decoration:none;" target="_blank"> www.facebook.com/TED</a></p>
+                                </div> <!-- /.col-md-7 -->
+                            </br>
+                                <div class="row">
+                                        <h3 class="widget-title">Our Motives</h3>
+                                        <ul class="progess-bars">
+                                            <li>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">Quality 100%</div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div>
+                                                    <p style="background-color: #d4d4d4; color: black; text-align: -webkit-center;">Money Spent 0%</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                </div> <!-- /.row -->
+                                <div class="our-team">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <h3 class="widget-title">Meet Our Team</h3>
+                                        </div> <!-- /.col-md-12 -->
+                                    </div> <!-- /.row -->
+                                    <div class="row">
+                                        <div class="col-md-4 col-sm-6">
+                                            <div class="team-member">
+                                                <div class="member-thumb">
+                                                    <img src="images/team/organiserssss.jpg" alt="">
+                                                </div>
+                                                <div class="member-infos">
+                                                    <h4 class="member-name"><font size=5><a href="https://www.facebook.com/sheetal.chauhan.31" style="text-decoration:none;" target="_blank">Sheetal Chauhan</a><br><a href="https://www.facebook.com/damini.mishra.714" style="text-decoration:none;" target="_blank">Damini Mishra</a> <br><a href="https://www.facebook.com/shashwat.d.nagar" style="text-decoration:none;" target="_blank">Shashwat Deepali Nagar</a></font></h4>
+                                                    <span class="member-role"><u>Organisers</u></span>                                                    
+                                                </div>
+                                            </div>
+                                        </div> <!-- /.col-md-4 -->
+                                        <div class="col-md-4 col-sm-6">
+                                            <div class="team-member">
+                                                <div class="member-thumb">
+                                                    <img src="images/team/webd.jpg" alt="">
+                                                </div>
+                                                <div class="member-infos">
+                                                    <h4 class="member-name"><font size=5><a href="https://www.facebook.com/gauravgupta.co.in" style="text-decoration:none;" target="_blank">Gaurav Gupta</a><br><a href="https://www.facebook.com/manav11895" style="text-decoration:none;" target="_blank">Manav Kumar Saxena</a><br><a href="https://www.facebook.com/nithila16051995" style="text-decoration:none;" target="_blank">Nithilasaravanan</a></u></font> </h4>
+                                                    <span class="member-role"><u>Web Development</span>                                            
+                                                </div>
+                                            </div>
+                                        </div> <!-- /.col-md-4 -->
+                                        <div class="col-md-4 col-sm-6">
+                                            <div class="team-member">
+                                                <div class="member-thumb">
+                                                    <img src="images/team/Speaker.jpg" alt="">
+                                                </div>
+                                                <div class="member-infos">
+                                                    <h4 class="member-name"><font size=5><a href="https://www.facebook.com/sreetika.raymohapatra" style="text-decoration:none;" target="_blank">Sreetika Ray Mohapatra</a><br><a href="https://www.facebook.com/kritin94" style="text-decoration:none;" target="_blank">Kritin Gupta</a><br><a href="https://www.facebook.com/gurkirat.s.g" style="text-decoration:none;" target="_blank">Gurkirat Singh Gill</a></font></h4>
+                                                    <span class="member-role"><u>Speaker Content and Relations</u></span>                                                                                                       
+                                                </div>
+                                            </div>
+                                        </div> <!-- /.col-md-4 -->
+                                        <div class="col-md-4 col-sm-6">
+                                            <div class="team-member">
+                                                <div class="member-thumb">
+                                                    <img src="images/team/onlinepub.jpg" alt="">
+                                                </div>
+                                                <div class="member-infos">
+                                                    <h4 class="member-name"><font size=5><a href="https://www.facebook.com/Shwetank95" style="text-decoration:none;" target="_blank">Shwetank Pandey</a><br><a href="https://www.facebook.com/sjsingh785" style="text-decoration:none;" target="_blank">Simranjeet Singh</a><br><a href="https://www.facebook.com/garima.gupta.98284" style="text-decoration:none;" target="_blank">Garima Gupta</a></font> </h4>
+                                                    <span class="member-role"><u>Online Publicity</u></span>                                   
+                                                    
+                                                </div>
+                                            </div>
+                                        </div> <!-- /.col-md-4 -->
+                                        <div class="col-md-4 col-sm-6">
+                                            <div class="team-member">
+                                                <div class="member-thumb">
+                                                    <img src="images/team/stage.jpg" alt="">
+                                                </div>
+                                                <div class="member-infos">
+                                                    <h4 class="member-name"><font size=5><a href="https://www.facebook.com/yagya.choudhary.5" style="text-decoration:none;" target="_blank">Yagya Choudhary</a><br><a href="https://www.facebook.com/sameeksha.aggarwal" style="text-decoration:none;" target="_blank">Sameeksha Aggarwal</a><br><a href="https://www.facebook.com/shaifali.bhandari.1" style="text-decoration:none;" target="_blank">Shaifali Bhandari </a></font></h4>
+                                                    <span class="member-role"><u>Stage Design</u></span>                                                   
+                                                    
+                                                </div>
+                                            </div>
+                                        </div> <!-- /.col-md-4 -->
+                                        <div class="col-md-4 col-sm-6">
+                                            <div class="team-member">
+                                                <div class="member-thumb">
+                                                    <img src="images/team/Teaser.jpg" alt="">
+                                                </div>
+                                                <div class="member-infos">
+                                                    <h4 class="member-name"><font size=5><a href="https://www.facebook.com/abhinav.chandra.54" style="text-decoration:none;" target="_blank">Abhinav Chandra</a><br><a href="https://www.facebook.com/apoorv.saini.12" style="text-decoration:none;" target="_blank">Apoorv Saini </a></font><br><font size=5><a href="" style="text-decoration:none;" target="_blank">Rishabh Gupta</a></font></h4>
+                                                    <span class="member-role"><u>Teaser</u></span>                                                   
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- /.row -->
+                                </div> <!-- /.our-team -->
+                            </div> <!-- /.content-inner -->
+                        </div> <!-- /.about-us -->
+
+                        <div id="menu-3" class="content our-gallery">
+                            <div class="page-header">
+                                <h2 class="page-title">Speakers</h2>
+                            </div> <!-- /.page-header -->
+                            <div class="content-inner">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h3 class="widget-title">Speaker Line-Up for this Year</h3>
+                                    </div> <!-- /.col-md-6 -->
+                                   <div class="col-md-6">
+                                  <!--      <div class="filter-work pull-right">
+                                            <a href="#nogo" class="toggle-filter">Category Filter</a>
+                                            <ul class="filter-controls controls">
+                                                <li class="filter" data-filter="all">Show All</li>
+                                                <li class="filter" data-filter="branding">Branding</li>
+                                                <li class="filter" data-filter="graphic">Graphic Design</li>
+                                                <li class="filter" data-filter="nature">Nature</li>
+                                            </ul>
+                                        </div>.filter-work -->
+                                    </div> <!-- /.col-md-6 -->
+                                </div> <!-- /.row -->
+                                <div class="row">
+                                    <div id="Grid">                                        
+                                        <div class="col-md-4 col-sm-6 mix graphic">
+                                            <div class="gallery-item">
+                                                <div class="gallery-thumb">
+                                                   <img src="images/Anand Shankar.jpg" alt="Anand Shankar">
+
+                                                    <div class="overlay-g">
+                                                     
+                                                        <a href="images/AnandPOPUPopt.jpg" data-rel="lightbox" class="fa fa-search"></a>
+                                                    
+                                                    </div>
+                                                </div> <!-- /.gallery-thumb -->
+                                                <div class="gallery-content">
+                                                    <h4 class="gallery-title">Anand Sankar</h4>    
+                                                    <span class="gallery-category">Founder | Kalap Trust</span>
+                                                    
+                                                </div> <!-- /.gallery-content -->
+                                            </div> <!-- /.gallery-item -->
+                                        </div> <!-- /.col-md-4 -->
+                                        <div class="col-md-4 col-sm-6 mix graphic">
+                                            <div class="gallery-item">
+                                                <div class="gallery-thumb">
+                                                   <img src="images/Ankit Chadha.jpg" alt="Ankit Chadha">
+
+                                                    <div class="overlay-g">
+                                                     
+                                                        <a href="images/AnkitPOPUPopt.jpg" data-rel="lightbox" class="fa fa-search"></a>
+                                                    
+                                                    </div>
+                                                </div> <!-- /.gallery-thumb -->
+                                                <div class="gallery-content">
+                                                    <h4 class="gallery-title">Ankit Chadha</h4>    
+                                                    <span class="gallery-category">Dastangoi Artist</span>
+                                                    
+                                                </div> <!-- /.gallery-content -->
+                                            </div> <!-- /.gallery-item -->
+                                        </div> <!-- /.col-md-4 -->
+                                        <div class="col-md-4 col-sm-6 mix graphic">
+                                            <div class="gallery-item">
+                                                <div class="gallery-thumb">
+                                                   <img src="images/guneet kaur.jpg" alt="Guneet Kaur">
+
+                                                    <div class="overlay-g">
+                                                     
+                                                        <a href="images/guneetPOPUPopt.jpg" data-rel="lightbox" class="fa fa-search"></a>
+                                                    
+                                                    </div>
+                                                </div> <!-- /.gallery-thumb -->
+                                                <div class="gallery-content">
+                                                    <h4 class="gallery-title">Guneet Kaur</h4>    
+                                                    <span style="font-size: 13px;" class="gallery-category">Legal And Research Fellow | Jagdalpur Legal Aid Group</span>
+                                                    
+                                                </div> <!-- /.gallery-content -->
+                                            </div> <!-- /.gallery-item -->
+                                        </div> <!-- /.col-md-4 -->
+                                        <div class="col-md-4 col-sm-6 mix graphic">
+                                            <div class="gallery-item">
+                                                <div class="gallery-thumb">
+                                                    <img src="images/new/Pallavi-Singh.jpg" alt="">
+                                                    <div class="overlay-g">
+                                                        <a href="images/new/PallaviPOPUP.jpg" data-rel="lightbox" class="fa fa-search"></a>
+                                                    </div>
+                                                </div>   
+                                                <div class="gallery-content">
+                                                    <h4 class="gallery-title">Pallavi Singh</h4>    
+                                                    <span style="font-size: 13px;" class="gallery-category">Hindi Language Teacher | American Consulate</span>                            
+                                                </div> 
+                                            </div> 
+                                        </div> 
+                                        <div class="col-md-4 col-sm-6 mix graphic">
+                                            <div class="gallery-item">
+                                                <div class="gallery-thumb">
+                                                    <img src="images/new/K-Arumugam.jpg" alt="">
+                                                    <div class="overlay-g">
+                                                        <a href="images/new/arumugamPOPUP.jpg" data-rel="lightbox" class="fa fa-search"></a>
+                                                    </div>
+                                                </div> 
+                                                <div class="gallery-content">
+                                                    <h4 class="gallery-title">K Arumugam</h4>    
+                                                    <span class="gallery-category">Founder | One 1000 Hockey Legs</span>
+                                                </div> 
+                                            </div> 
+                                        </div>  
+
+                                        <div class="col-md-4 col-sm-6 mix graphic">
+                                            <div class="gallery-item">
+                                                <div class="gallery-thumb">
+                                                    <img src="images/new/Sajid-Shariff.jpg" alt="">
+                                                    <div class="overlay-g">
+                                                        <a href="images/new/sajjidPOPUP.jpg" data-rel="lightbox" class="fa fa-search"></a>
+                                                    </div>
+                                                </div> 
+                                                <div class="gallery-content">
+                                                    <h4 class="gallery-title">Sajid Shariff</h4>    
+                                                    <span class="gallery-category">Co-Founder and CEO | Doing Good Fellows</span>
+                                                </div> 
+                                            </div> 
+                                        </div> 
+
+                                        <div class="col-md-4 col-sm-6 mix graphic">
+                                            <div class="gallery-item">
+                                                <div class="gallery-thumb">
+                                                    <img src="images/new/Parul-Khanna.jpg" alt="">
+                                                    <div class="overlay-g">
+                                                        <a href="images/new/ParulPOPUP.jpg" data-rel="lightbox" class="fa fa-search"></a>
+                                                    </div>
+                                                </div> 
+                                                <div class="gallery-content">
+                                                    <h4 class="gallery-title">Parul Seth Khanna</h4>    
+                                                    <span class="gallery-category">Director | giftapension.com</span>
+                                                                                 
+                                                </div> 
+                                            </div> 
+                                        </div>                                   
+                                    </div> <!-- /#Grid -->
+                                </div> <!-- /.row -->
+                            </div> <!-- /.content-inner -->
+
+                        </div> <!-- /.our-gallery -->
+
+
+                        <div id="menu-4" class="content">
+                            <div class="page-header">
+                                <h2 class="page-title">Video Feed</h2>
+                            </div> <!-- /.page-header -->
+                            <div class="content-inner">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <h3 class="widget-title">Past Speakers Video Gallery</h3>
+                                    </div> <!-- /.col-md-12 -->
+                                </div> <!-- /.row -->
+                                <div class="row services">
+                                    <div class="col-md-6">
+                                        <div class="service">
+                                            <div class="header">
+                                                <div class="header-bg"></div>
+                                                <div class="service-header">
+                                                    <div class="icon">
+                                                        <i class="fa fa-heart-o"></i>
+                                                    </div>
+                                                    <h4 class="service-title">TEDxNSIT 2010</h4>
+                                                </div>
+                                            </div>
+                                            <div class="body"><iframe title="YouTube video player" style="display:block; width:100%;" src="http://www.youtube.com/embed/Gz2rRalImPg" frameborder="0" allowfullscreen></iframe></div>
+                                        </div>
+                                    </div> <!-- /.col-md-4 -->
+                                    <div class="col-md-6">
+                                        <div class="service">
+                                            <div class="header">
+                                                <div class="header-bg"></div>
+                                                <div class="service-header">
+                                                    <div class="icon">
+                                                        <i class="fa fa-flask"></i>
+                                                    </div>
+                                                    <h4 class="service-title">TEDxNSIT 2011</h4>
+                                                </div>
+                                            </div>
+                                            <div class="body"><iframe title="YouTube video player" style="display:block; width:100%" src="http://www.youtube.com/embed/7NylRpcE3Oc?version=3&vq=hd480" frameborder="0" allowfullscreen></iframe></div>
+                                        </div>
+                                    </div> <!-- /.col-md-4 -->
+                                    <div class="col-md-6">
+                                        <div class="service">
+                                            <div class="header">
+                                                <div class="header-bg"></div>
+                                                <div class="service-header">
+                                                    <div class="icon">
+                                                        <i class="fa fa-heart-o"></i>
+                                                    </div>
+                                                    <h4 class="service-title">TEDxNSIT 2011</h4>
+                                                </div>
+                                            </div>
+                                            <div class="body"><iframe title="YouTube video player" style="display:block; width:100%;" src="https://www.youtube.com/embed/338lhuIFBXo" frameborder="0" allowfullscreen></iframe></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="service">
+                                            <div class="header">
+                                                <div class="header-bg"></div>
+                                                <div class="service-header">
+                                                    <div class="icon">
+                                                        <i class="fa fa-heart-o"></i>
+                                                    </div>
+                                                    <h4 class="service-title">TEDxNSIT 2011</h4>
+                                                </div>
+                                            </div>
+                                            <div class="body"><iframe title="YouTube video player" style="display:block; width:100%;" src="https://www.youtube.com/embed/a2elrLhk2ss" frameborder="0" allowfullscreen></iframe></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="service">
+                                            <div class="header">
+                                                <div class="header-bg"></div>
+                                                <div class="service-header">
+                                                    <div class="icon">
+                                                        <i class="fa fa-heart-o"></i>
+                                                    </div>
+                                                    <h4 class="service-title">TEDxNSIT 2012</h4>
+                                                </div>
+                                            </div>
+                                            <div class="body"><iframe title="YouTube video player" style="display:block; width:100%;" src="https://www.youtube.com/embed/hF43jXodoTQ" frameborder="0" allowfullscreen></iframe></div>
+                                        </div>
+                                    </div>
+                                
+                                </div> <!-- /.row -->
+                            </div> <!-- /.content-inner -->
+
+                        </div> <!-- /.services -->
+
+                        <div id="menu-5" class="content">
+                            <div class="page-header">
+                                <h2 class="page-title">Stay In Touch</h2>
+                            </div> <!-- /.page-header -->
+                            <div class="content-inner">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h3 class="widget-title">Registrations have now been closed officially.</h3>
+                                        <p>We'll soon be releasing the list of all attendees that have been shortlisted.<p>
+
+                                        <!-- <p>Kindly fill in the form to mark your presence in the conference. Further shortlisting might happen. Fields marked * are mandatory.</p> -->
+                                        
+                                        <!-- <div ng-controller="submitController" class="myForm">
+                                            <form name="myForm" ng-submit="submit_form(myForm.$invalid)" class="row contact-form">
+                                                <div>
+                                                    <label for="name">* Your Name</label></br>
+                                                    <input name="name" type="text" id="name" ng-maxlength="40" type='text' ng-model="form.name" required>
+                                                </div>
+                                                <div>
+                                                    <label for="email">* Email</label></br>
+                                                    <input name="email" type="email" id="email" type='text' ng-model="form.email" required>
+                                                </div>
+                                                <div>
+                                                    <label for="phone">* Contact No.</label></br>
+                                                    <input name="phone" type="number" id="phone" ng-minlength = "10" ng-maxlength = "13" type='text' ng-model="form.phone" required>
+                                                </div>
+                                                <div>
+                                                    <label for="organisation">* Institute/Organisation</label></br>
+                                                    <input name="organisation" type="text" id="organisation" type='text' ng-model="form.organisation" required>
+                                                </div>
+                                                <div>
+                                                    <label for="designation">* Designation</label></br>
+                                                    <input name="designation" type="text" id="designation" type='text' ng-model="form.designation" required>
+                                                </div>
+                                                <div>
+                                                    <label for="how">* How did you come to know about this conference?</label></br>
+                                                    <input name="how" type="text" id="how" maxlength="40" type='text' ng-model="form.how" required>
+                                                </div>
+                                                <div>
+                                                    <label for="speaker">* Which speaker's talk do you look forward to the most?</label></br>                                             
+                                                    <select ng-model="form.speaker" ng-options="speak.name as speak.name for speak in available_speakers" required>
+                                                          <option></option>
+                                                    </select>                                            
+                                                </div><br>
+                                                <div>
+                                                    <label for="reason">* Why do you want to listen to the above mentioned speaker?</label></br>
+                                                    <textarea name="reason" type="text" id="reason" type='text' ng-model="form.reason" required></textarea>
+                                                </div></br>
+                                                <div>
+                                                    <label for="motivation">* What is the motivation behind attending this conference?</label></br>
+                                                    <textarea name="motivation" ng-init="form.motivation=''" type="text" id="motivation" type='text' ng-model="form.motivation" required></textarea>
+                                                </div></br>
+                                                <div>
+                                                    <label for="lunch">Would you like to join us for lunch?</label></br>
+                                                      <input style="width: 6%; height: 13px;" type="radio" ng-model="form.lunch" value="Yes">Yes<br/>
+                                                      <input style="width: 6%; height: 13px;" type="radio" ng-model="form.lunch" value="No">No<br/>
+                                                </div>
+                                                <div>
+                                                    <label for="message">Message</label></br>
+                                                    <textarea name="message" type="text" id="message" type='text' ng-model="form.message"></textarea>
+                                                </div>
+                                                <input ng-disabled="buttonDisabled" class="mainBtn" type="submit" name="" value="Register">
+
+                                            </form>
+                                            <div style="color:green" id="registered"></div>
+                                        </div> -->
+                                    
+                                    </div><!--  /.col-md-8 -->
+                                    <div class="col-md-6">
+                                        <div class="information">
+                                            <h3 class="widget-title">Information</h3>
+                                            <ul class="our-location">
+                                                <li><span><i class="fa fa-map-marker"></i>Address:</span>120 Azad Hind Fauz Marg, Sector-3, Dwarka, New Delhi - 110078</li>
+                                                <li><span><i class="fa fa-map-marker"></i>Phone:</span>+919971478613, +919810701736, +919999337906 </br> <a href="https://www.ted.com/tedx/groups/654" style="text-decoration:none;" target="_blank"><font size=3>Rahul Dhingra (Licensee): rahuldhingra92@gmail.com</font></a></li>
+                                                <li><span><i class="fa fa-map-marker"></i>Email:</span><a href="mailto:info@company.com">admin@tedxnsit.in</a></li>
+                                            </ul>
+                                        </div> <!-- /.information -->
+                                        <div class="google-map">
+                                            <h3 class="widget-title">Our Location</h3>
+                                            <div class="contact-map">
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14010.687487473459!2d77.037016!3d28.609619!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7e540ab22a28446!2sNetaji+Subhas+Institute+Of+Technology!5e0!3m2!1sen!2sin!4v1428083209187" width="427" height="300" frameborder="0" style="border:0"></iframe>
+                                            </div> <!-- /.contact-map -->
+                                        </div> <!-- /.google-map -->
+                                    </div> <!-- /.col-md-4 -->
+                                </div> <!-- /.row -->
+                            </div> <!-- /.content-inner -->
+
+                        </div> <!-- /.stay-in-touch -->
+                        
+                        <div class="site-footer">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p class="copyright-text">Copyright &copy; TEDxNSIT. All rights reserved.</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="social-icons-footer">
+                                        <ul>
+                                            <li><a href="https://www.facebook.com/TEDxNSIT" target="_blank" class="fa fa-facebook"></a></li>
+                                            <li><a href="https://www.twitter.com/_TEDxNSIT_" target="_blank" class="fa fa-twitter"></a></li>
+                                            <li><a href="https://www.youtube.com/playlist?list=PL82T9UJBp4fXNvO7Nx3A0fTL3veyazyHQ
+" target="_blank" class="fa fa-youtube"></a></li>
+                                            <li><a href="https://instagram.com/tedxnsit/" target="_blank" class="fa fa-instagram"></a></li>
+                                            <li><a href="https://www.flickr.com/photos/49126481@N06/" target="_blank" class="fa fa-flickr"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- /.site-footer -->
+
+                    </div> <!-- /.content-holder -->
+                
+                </div> <!-- /.col-md-10 -->
+            </div> <!-- /.row -->
+        </div> <!-- /.container -->
+    </div> <!-- /.main-content -->
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="js/jquery.mixitup.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/jquery.lightbox.js"></script>
+    <script src="js/templatemo_custom.js"></script>
+
+    <script type="text/javascript">
+        var clock;
+        
+        $(document).ready(function() {
+            // Grab the current date
+                var currentDate = new Date();
+
+                // Set some date in the future. In this case, it's always been since April 12
+                var pastDate  = new Date(currentDate.getFullYear(), 3, 12);
+
+                // Calculate the difference in seconds between the future and current date
+                var diff =  pastDate.getTime() / 1000 - currentDate.getTime() / 1000;
+
+                // Instantiate a coutdown FlipClock
+                clock = $('.clock').FlipClock(diff, {
+                    clockFace: 'DailyCounter',
+                    showSeconds: true
+                });
+            clock.setCountdown(true);
+            clock.start();
+
+        });
+    </script>
+
+    <script>
+        function submitController($scope,$http){
+            $scope.buttonDisabled = false;
+            $scope.form = {};
+            $scope.available_speakers = [{name: "Anand Shankar"}, {name: "Ankit Chadha"}, {name: "Guneet Kaur"}, {name: "Pallavi Singh"}, {name: "K Arumugam"}, {name: "Sajid Shariff"}, {name: "Parul Seth Khanna"}];
+            $scope.form.lunch = "Yes";
+            $scope.form.motivation = "";
+            $scope.form.phone = "";
+            $scope.form.organisation = "";
+            $scope.form.designation = "";
+            $scope.form.how = "";
+            $scope.form.reason = "";
+            $scope.form.email = "";
+            $scope.form.name = "";
+            $scope.form.speaker = "";
+            $scope.form.message = "";
+            $scope.submit_form = function(invalid){
+                if (invalid == false)
+                    $scope.buttonDisabled = true;
+                console.log("successful");
+                console.log($scope.form);
+                // var req = $http({
+                //     method: "post",
+                //     url: 'http://tedxnsit.in/tedxsamp/register.php',
+                //     data: "form=" + $scope.form,
+                //     headers: {'Content-Type': 'application/x-www-form-urlencoded'}
+                // });
+
+                // req.success(function(data){
+                //     console.log(data);
+                // })
+
+                // req.error(function(error){
+                //     console.log("error");
+                // })
+                var username = $scope.form.name;
+                var useremail = $scope.form.email;
+                var userphone = $scope.form.phone;
+                var userorganisation = $scope.form.organisation;
+                var userdesignation = $scope.form.designation;
+                var userhow = $scope.form.how;
+                var userspeaker = $scope.form.speaker;
+                var userreason = $scope.form.reason;
+                var usermotivation = $scope.form.motivation;
+                var userlunch = $scope.form.lunch;
+                var userMessage = $scope.form.message;
+                $.ajax({
+                  type: 'GET',
+                  url: 'http://tedxnsit.in/register.php',
+                  data: {name: username, email: useremail, phone: userphone, organisation: userorganisation, 
+                        designation: userdesignation, how: userhow, speaker: userspeaker, reason: userreason,
+                        motivation: usermotivation, lunch: userlunch, message: userMessage},
+                  dataType: 'jsonp',
+                  success: function(data) {
+                    console.log("yes");
+                    console.log(data);
+                
+                    document.getElementById('registered').innerHTML = "Congratulations You Have successfully registered, See you in Conference!";
+                                        // bootbox.alert("Congratulations You Have successfully registered, See you in Conference!", function() {
+                    //     console.log("Alert Callback");
+
+                    //     // window.location.href = 'http://tedxnsit.in/tedxsamp/';
+                    // });
+
+                    setTimeout(function(){ window.location = 'http://tedxnsit.in/'; }, 2000);
+
+        
+                  },
+                  error: function (xhr, ajaxOptions, thrownError) {
+                    alert("ERROR:" + xhr.responseText+" - "+thrownError);
+                    }
+                });
+            }
+
+        }
+    </script>
+
+    <script>
+        function initialize() {
+          var mapOptions = {
+            zoom: 15,
+            center: new google.maps.LatLng(16.832179,96.134976)
+          };
+
+          var map = new google.maps.Map(document.getElementById('map-canvas'),
+              mapOptions);
+        }
+
+        function loadScript() {
+          var script = document.createElement('script');
+          script.type = 'text/javascript';
+          script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' +
+              'callback=initialize';
+          document.body.appendChild(script);
+        }
+
+    </script>
+</body>
+</html>
